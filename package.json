@@ -4,8 +4,12 @@
   "description": "Mono Repo Fullstack Scripts",
   "main": "no-entrypoint",
   "scripts": {
-    "test": "echo \"no tests\"",
-    "postinstall": "cd frontend && npm install"
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "postinstall": "npm run install:frontend && npm run install:backend",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm start",
+    "test": "echo \"no tests\""
   },
   "repository": {
     "type": "git",
