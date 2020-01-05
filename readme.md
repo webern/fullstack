@@ -26,3 +26,8 @@ And to deploy, Frontend to Netlify and Backend to Heroku.
 
  It is not recommended to delete any branches, until/unless the total number of branches is truly problematic.
 
+## Deployment
+
+We have deployed the frontend to Netlify at this address: https://relaxed-ardinghelli-e3ccf9.netlify.com/
+
+
