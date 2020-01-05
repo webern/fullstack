@@ -4,6 +4,7 @@
   "description": "Mono Repo Fullstack Scripts",
   "main": "no-entrypoint",
   "scripts": {
+    "build:frontend": "cd frontend && npm run build",
     "install:backend": "cd backend && npm install",
     "install:frontend": "cd frontend && npm install",
     "postinstall": "npm run install:frontend && npm run install:backend",
