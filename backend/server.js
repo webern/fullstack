@@ -6,7 +6,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.get("/status", (req, res) => {
-  res.json({ status: 'ok' })
+  res.json({ status: 'ok', message: "Hello Bones 🐈" })
 });
 
 app.listen(PORT, () => {
