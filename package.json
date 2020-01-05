@@ -1,0 +1,20 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "description": "Mono Repo Fullstack Scripts",
+  "main": "no-entrypoint",
+  "scripts": {
+    "test": "echo \"no tests\"",
+    "postinstall": "cd frontend && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webern/fullstack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webern/fullstack/issues"
+  },
+  "homepage": "https://github.com/webern/fullstack#readme"
+}
