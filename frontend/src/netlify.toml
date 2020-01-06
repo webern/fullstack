@@ -1,0 +1,5 @@
+[[headers]]
+  for = "/"
+  [headers.values]
+  X-Custom-Header = "foo"
+  Access-Control-Allow-Origin = "*"
