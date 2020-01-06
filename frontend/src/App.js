@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import constants from './constants'
 
 class App extends Component {
 
@@ -20,6 +21,9 @@ class App extends Component {
               <p>
                 The message is: {this.state.message}
               </p>
+                <p>
+                    The route is: {`${constants.hostname}/status`}
+                </p>
               <a
                 className="App-link"
                 href="https://reactjs.org"
@@ -35,7 +39,7 @@ class App extends Component {
 
 
   componentDidMount() {
-        fetch('http://localhost:3000/status', {
+        fetch(`${constants.hostname}/status`, {
             headers: {
                 'Content-Type': 'application/json'
             },
