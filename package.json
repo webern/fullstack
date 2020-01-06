@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/webern/fullstack/issues"
   },
-  "homepage": "https://github.com/webern/fullstack#readme"
+  "homepage": "https://github.com/webern/fullstack#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0"
+  }
 }
